@@ -17,6 +17,14 @@
 		"oAP": "/.env",
 		"oF": 0
 		},
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -242,7 +250,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightgallery/dist/js/lightgallery.js": {
+	"/node_modules/lightGallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -821,38 +829,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/page/index.twig",
-		"oF": 0
-		},
-	"/templates/default/shows/entry.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/shows/entry.twig",
-		"oF": 0
-		},
-	"/templates/default/shows/index copy.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/shows/index copy.twig",
-		"oF": 0
-		},
-	"/templates/default/shows/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/shows/index.twig",
-		"oF": 0
-		},
-	"/templates/default/tickets/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/tickets/index.twig",
 		"oF": 0
 		},
 	"/vendor": {
@@ -4251,7 +4227,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 534613424,
-	"displayValue": "57 Festivals",
+	"displayValue": "Ambigu Bakery",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
 	"iconImageWasSetByUser": 1
@@ -5732,7 +5708,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "https://fiftyseven.test",
+	"externalServerAddress": "https://ambigubakery.test",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
