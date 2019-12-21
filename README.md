@@ -1,6 +1,6 @@
-# 57 Festivals
+# Ambigu Bakery
 
-Website Platform for 57 Festivals.
+Website for Ambigu Bakery.
 * * *
 
 Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com
