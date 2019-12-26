@@ -89,6 +89,14 @@
 		"oAP": "/config/imager.php",
 		"oF": 0
 		},
+	"/config/license.key": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/license.key",
+		"oF": 0
+		},
 	"/config/minify.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -242,7 +250,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightgallery/dist/js/lightgallery.js": {
+	"/node_modules/lightGallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -264,17 +272,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/ssr-window/dist/ssr-window.esm-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/node_modules/swiper/js/swiper.esm.bundle.js": {
 		"bF": 0,
 		"ft": 64,
@@ -285,6 +282,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -947,28 +952,20 @@
 		"oAP": "/web/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
-	"/web/assets/fonts/demibold-pro.ttf": {
+	"/web/assets/fonts/cheltenham-std-book.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/web/assets/fonts/demibold-pro.ttf",
+		"oAP": "/web/assets/fonts/cheltenham-std-book.woff",
 		"oF": 0
 		},
-	"/web/assets/fonts/demibold-pro.woff": {
+	"/web/assets/fonts/cheltenham-std-book.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/web/assets/fonts/demibold-pro.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/demibold-pro.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/demibold-pro.woff2",
+		"oAP": "/web/assets/fonts/cheltenham-std-book.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/gallery.woff": {
@@ -987,84 +984,20 @@
 		"oAP": "/web/assets/fonts/gallery.woff2",
 		"oF": 0
 		},
-	"/web/assets/fonts/light-pro.ttf": {
+	"/web/assets/fonts/lynstone-regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/web/assets/fonts/light-pro.ttf",
+		"oAP": "/web/assets/fonts/lynstone-regular.woff",
 		"oF": 0
 		},
-	"/web/assets/fonts/light-pro.woff": {
+	"/web/assets/fonts/lynstone-regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/web/assets/fonts/light-pro.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/light-pro.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/light-pro.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/marrsans-regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/marrsans-regular.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/marrsans-regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/marrsans-regular.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/regular-pro.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/regular-pro.ttf",
-		"oF": 0
-		},
-	"/web/assets/fonts/regular-pro.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/regular-pro.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/regular-pro.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/regular-pro.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/true-north.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/true-north.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/true-north.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web/assets/fonts/true-north.woff2",
+		"oAP": "/web/assets/fonts/lynstone-regular.woff2",
 		"oF": 0
 		},
 	"/web/assets/icons/flag.svg": {

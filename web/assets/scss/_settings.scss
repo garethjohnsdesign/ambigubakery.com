@@ -68,7 +68,6 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-/*
 $foundation-palette: (
   primary: #1779ba,
   secondary: #767676,
@@ -76,34 +75,21 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
-*/
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$foundation-palette: (
-  primary: $black,
-  secondary: #2F2D50,
-  tertiary: #F9F7F2,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #cc4b37,
-  spring-wood: #F9F7F2,
-);
-// $body-background: $white;
-$body-background: get-color(spring-wood);
+$body-background: $white;
 $body-font-color: $black;
-// $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: $sans-regular; 
+$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-// $global-radius: 0;
-$global-radius: 3px;
+$global-radius: 0;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -112,9 +98,9 @@ $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
+$print-hrefs: true;
 
 @include add-foundation-colors;
-$print-hrefs: true;
 
 // 2. Breakpoints
 // --------------
@@ -126,9 +112,15 @@ $breakpoints: (
   xlarge: 1200px,
   xxlarge: 1440px,
 );
+$breakpoints-hidpi: (
+  hidpi-1: 1,
+  hidpi-1-5: 1.5,
+  hidpi-2: 2,
+  retina: 2,
+  hidpi-3: 3
+);
 $print-breakpoint: large;
-// $breakpoint-classes: (small medium large);
-$breakpoint-classes: (small medium large xlarge xxlarge);
+$breakpoint-classes: (small medium large);
 
 // 3. The Grid
 // -----------
@@ -151,11 +143,8 @@ $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-// $header-lineheight: 1.4;
-$header-lineheight: 1.2;
-// $header-margin-bottom: 0.5rem;
-$header-margin-bottom: 1rem;
-/*
+$header-lineheight: 1.4;
+$header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
@@ -174,39 +163,14 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
 );
-*/
-$header-styles: (
-  'small': (
-    'h1': ('font-size': 32, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h2': ('font-size': 24, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h3': ('font-size': 19, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h4': ('font-size': 18, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h5': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h6': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom)
-  ),
-  'medium': (
-    'h1': ('font-size': 64, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h2': ('font-size': 32, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h3': ('font-size': 24, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h4': ('font-size': 18, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h5': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h6': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom)
-  ),
-);
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
-$code-color: $black;
-$code-font-family: $font-family-monospace;
-$code-font-weight: $global-weight-normal;
-$code-background: $light-gray;
-$code-border: 1px solid $medium-gray;
-$code-padding: rem-calc(2 5 1);
-// $anchor-color: $primary-color;
-$anchor-color: $black;
+$enable-code-inline: true;
+$anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -222,16 +186,10 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-// $blockquote-color: $dark-gray;
-$blockquote-color: $primary-color;
-// $blockquote-padding: rem-calc(9 20 0 19);
-$blockquote-padding: 1rem 0rem;
-// $blockquote-border: 1px solid $medium-gray;
-$blockquote-border: 0;
-$cite-font-size: rem-calc(13);
-// $cite-color: $dark-gray;
-$cite-color: $black;
-$cite-pseudo-content: '\2014 \0020';
+$blockquote-color: $dark-gray;
+$blockquote-padding: rem-calc(9 20 0 19);
+$blockquote-border: 1px solid $medium-gray;
+$enable-cite-block: true;
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
 $keystroke-background: $light-gray;
@@ -250,6 +208,17 @@ $subheader-font-weight: $global-weight-normal;
 $subheader-margin-top: 0.2rem;
 $subheader-margin-bottom: 0.5rem;
 $stat-font-size: 2.5rem;
+$cite-color: $dark-gray;
+$cite-font-size: rem-calc(13);
+$cite-pseudo-content: '\2014 \0020';
+$code-color: $black;
+$code-font-family: $font-family-monospace;
+$code-font-weight: $global-weight-normal;
+$code-background: $light-gray;
+$code-border: 1px solid $medium-gray;
+$code-padding: rem-calc(2 5 1);
+$code-block-padding: 1rem;
+$code-block-margin-bottom: 1.5rem;
 
 // 6. Abide
 // --------
@@ -267,6 +236,8 @@ $input-error-font-weight: $global-weight-bold;
 
 $accordion-background: $white;
 $accordion-plusminus: true;
+$accordion-plus-content: '\002B';
+$accordion-minus-content: '\2013';
 $accordion-title-font-size: rem-calc(12);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
@@ -322,6 +293,7 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // ----------
 
 $button-font-family: inherit;
+$button-font-weight: null;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
@@ -330,6 +302,7 @@ $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
 $button-radius: $global-radius;
+$button-border: 1px solid transparent;
 $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
@@ -360,7 +333,11 @@ $callout-background: $white;
 $callout-background-fade: 85%;
 $callout-border: 1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
-$callout-padding: 1rem;
+$callout-sizes: (
+  small: 0.5rem,
+  default: 1rem,
+  large: 3rem,
+);
 $callout-font-color: $body-font-color;
 $callout-font-color-alt: $body-background;
 $callout-radius: $global-radius;
@@ -382,6 +359,8 @@ $card-margin-bottom: $global-margin;
 // ----------------
 
 $closebutton-position: right top;
+$closebutton-z-index: 10;
+$closebutton-default-size: medium;
 $closebutton-offset-horizontal: (
   small: 0.66rem,
   medium: 1rem,
@@ -517,6 +496,7 @@ $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
 $menu-item-color-active: $white;
+$menu-item-color-alt-active: $black;
 $menu-item-background-active: get-color(primary);
 $menu-icon-spacing: 0.25rem;
 $menu-state-back-compat: true;
@@ -588,6 +568,8 @@ $pagination-ellipsis-color: $black;
 $pagination-mobile-items: false;
 $pagination-mobile-current-item: false;
 $pagination-arrows: true;
+$pagination-arrow-previous: '\00AB';
+$pagination-arrow-next: '\00BB';
 
 // 28. Progress Bar
 // ----------------
@@ -644,8 +626,7 @@ $prototype-display: (
 // --------------------------
 
 $prototype-font-breakpoints: $global-prototype-breakpoints;
-// $prototype-wide-letter-spacing: rem-calc(4);
-$prototype-wide-letter-spacing: rem-calc(1);
+$prototype-wide-letter-spacing: rem-calc(4);
 $prototype-font-normal: $global-weight-normal;
 $prototype-font-bold: $global-weight-bold;
 
@@ -810,6 +791,8 @@ $switch-paddle-background: $white;
 $switch-paddle-offset: 0.25rem;
 $switch-paddle-radius: $global-radius;
 $switch-paddle-transition: all 0.25s ease-out;
+$switch-opacity-disabled: .5;
+$switch-cursor-disabled: not-allowed;
 
 // 50. Table
 // ---------

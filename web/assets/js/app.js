@@ -26,6 +26,7 @@ $(document).foundation();
 // 1. Loader
 // ---------------
 
+/*
 if ($("body").hasClass("home")) {
   $( ".loader" ).removeClass( "hide" );
   $( ".loader" ).addClass( "loading" );
@@ -34,6 +35,7 @@ if ($("body").hasClass("home")) {
   }, 2500 
   );
 }
+*/
 
 // 4. Animate on Scroll
 // --------------------
