@@ -65,14 +65,6 @@
 		"oAP": "/config/db.php",
 		"oF": 0
 		},
-	"/config/fortrabbit.production.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/fortrabbit.production.yaml",
-		"oF": 0
-		},
 	"/config/general.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -250,7 +242,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
+	"/node_modules/lightgallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -268,6 +260,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/mapbox-gl/dist/mapbox-gl-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/ssr-window/dist/ssr-window.esm-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -772,14 +775,6 @@
 		"oAP": "/templates/default/error.twig",
 		"oF": 0
 		},
-	"/templates/default/food-and-drink/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/food-and-drink/index.twig",
-		"oF": 0
-		},
 	"/templates/default/holding/index.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -826,6 +821,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/page/index.twig",
+		"oF": 0
+		},
+	"/templates/default/products/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/products/index.twig",
 		"oF": 0
 		},
 	"/vendor": {
@@ -966,6 +969,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/web/assets/fonts/cheltenham-std-book.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/custom.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/custom.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/custom.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/custom.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/gallery.woff": {

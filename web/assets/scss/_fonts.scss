@@ -1,4 +1,13 @@
 @font-face {
+  font-family: 'Custom';
+  src: 
+  url('../fonts/custom.woff2') format('woff2'), 
+  url('../fonts/custom.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Lynstone';
   src: 
   url('../fonts/lynstone-regular.woff2') format('woff2'), 

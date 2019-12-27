@@ -5,14 +5,13 @@
 
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-12 cell text-center">
-          <svg class="icon icon-email"><use xlink:href="/assets/icons/symbol-defs.svg#icon-email"></use></svg>
-          <h4 class="text-lowercase">Tickets, line-up news + festival updates</h4>
+          <h4>Newsletter</h4>
         </div>
       </div>
 
       <div class="grid-x grid-padding-x grid-padding-y align-center">
         <div class="small-11 medium-5 large-4 xlarge-4 xxlarge-3 cell text-center">
-          <form action="{{ event.newsletter }}" method="post" target="_blank" data-abide novalidate>
+          <form action="{{ location.newsletter }}" method="post" target="_blank" data-abide novalidate>
            
             <div data-abide-error class="alert callout" style="display: none;">
               <p><i class="fi-alert"></i>There are some errors in your form.</p>

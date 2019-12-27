@@ -6,7 +6,7 @@ return [
 
       'transformer' => 'imgix',
 
-      'imagerUrl' => 'http://storage.googleapis.com/fifty-seven-festivals/',
+      'imagerUrl' => 'http://storage.googleapis.com/ambigubakery/',
 
       // Enables Imgix integration
       'imgixEnabled' => true,
@@ -14,7 +14,7 @@ return [
 
       'imgixConfig' => [
           'default' => [
-              'domains' => ['fifty-seven-festivals.imgix.net'],
+              'domains' => ['ambigu-bakery.imgix.net'],
               'useHttps' => true,
               'signKey' => '',
               'sourceIsWebProxy' => false,
@@ -50,7 +50,7 @@ return [
       'storageConfig' => [
           'gcs' => [
               'keyFile' => '/key/old-blue-last-beer-238617-a12b9b142c4a.json',
-              'bucket' => 'fifty-seven-festivals',
+              'bucket' => 'ambigubakery',
               'folder' => '',
           ]
             
