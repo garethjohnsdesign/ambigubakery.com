@@ -10,9 +10,9 @@
         <li><a href="/contact" class="h3 sans-display" data-toggle="navigation">Contact</a></li>  
     </ul>
 
-<div class="shrink cell text-center">
- <ul class="menu align-center">
-        {% for block in location.socials.all() %}
+    <div class="shrink cell text-center">
+     <ul class="menu align-center">
+        {% for block in site.socials.all() %}
         {% switch block.type %}
           {% case "facebook" %}
         
@@ -28,7 +28,7 @@
           {% endswitch %}
         {% endfor %}
       </ul>
-</div>
+    </div>
 
     </div>
   </div>

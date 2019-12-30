@@ -242,7 +242,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightgallery/dist/js/lightgallery.js": {
+	"/node_modules/lightGallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -359,6 +359,14 @@
 		"oAP": "/templates/default/_includes/blocks/form.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/blocks/layout.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/layout.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/global/act.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -373,6 +381,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/_includes/global/analytics.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/cta.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/cta.twig",
 		"oF": 0
 		},
 	"/templates/default/_includes/global/footer.twig": {
