@@ -1019,6 +1019,22 @@
 		"oAP": "/web/assets/fonts/gallery.woff2",
 		"oF": 0
 		},
+	"/web/assets/fonts/gt-walshiem-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/gt-walshiem-regular.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/gt-walshiem-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/gt-walshiem-regular.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/lynstone-regular.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -1033,6 +1049,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/web/assets/fonts/lynstone-regular.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/marr-sans-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/marr-sans-regular.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/marr-sans-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/marr-sans-regular.woff2",
 		"oF": 0
 		},
 	"/web/assets/icons/flag.svg": {

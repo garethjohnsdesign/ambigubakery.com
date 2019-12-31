@@ -169,7 +169,7 @@ html.is-animating .swup-transition-color {
   @include links($primary-color, $secondary-color)
 }
 
-.light-background-color {
+.light-gray-background-color {
   background-color: $light-gray;
   color: $black;
   @include links($primary-color, $secondary-color)
@@ -273,6 +273,15 @@ p a {
 }
 
 .image--panorama {
+  @include aspect-ratio (21, 9);
+  background-size: cover; 
+  background-position: 50%;
+ .content {
+  background-color: rgba($black, 0.075);
+  }
+}
+
+.image--hero {
   @include aspect-ratio (16, 9);
   background-size: cover; 
   background-position: 50%;
@@ -326,7 +335,7 @@ p a {
   }
   @include links ($primary-color, $primary-color)
   a {
-    font-family: $sans-bold;
+    font-family: $sans-regular;
   }
 }
 
