@@ -156,16 +156,22 @@ html.is-animating .swup-transition-color {
 }
 */
 
-.primary-background-colour {
+.primary-background-color {
   background-color: get-color(primary);
   color: $white;
   @include links($white, $secondary-color)
 }
 
 
-.secondary-background-colour {
+.secondary-background-color {
   background-color: get-color(secondary);
   color: $primary-color;
+  @include links($primary-color, $secondary-color)
+}
+
+.light-background-color {
+  background-color: $light-gray;
+  color: $black;
   @include links($primary-color, $secondary-color)
 }
 

@@ -16,27 +16,12 @@
     <div class="small-12 medium-10 large-9 cell text-center">
       <div class="margin-bottom-2">{{entry.copy}}</div>
 
-      <h3 class="primary-color margin-bottom-1">{{event.address}}</h3>
-      <h3 class="primary-color">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</h3>
+      <h3 class="primary-color margin-bottom-1">{{site.address}}</h3>
 
     </div>
   </div>
 </div>
 <!-- End Copy -->
-
-
-<!-- Transport -->
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-3">
-    {% for transport in entry.transport.all() %}
-      <div class="cell">
-        <h2 class="sans-display">{{ transport.header }}</h2>
-        {{ transport.copy }}
-      </div>
-    {% endfor %}
-  </div>
-</div>
-<!-- End Transport  -->
 
 {% js %}
 mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2szeWllcnhiMGxyZTNncDZiZmRnNmYwdSJ9.WkvmU6fiN5LX8UbYcHuAiA";
@@ -44,7 +29,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2szeWllcnhiM
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/garethjohnsdesign/ck3yifoi209ig1ct8bo75sf4x?optimize=true',
-  center: [{{event.location.lng}}, {{event.location.lat}}],
+  center: [{{site.location.lng}}, {{site.location.lat}}],
   zoom: 12,
   scrollZoom: false,
   pitch: 60, // pitch in degrees
@@ -59,7 +44,7 @@ var geojson = {
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [{{event.location.lng}}, {{event.location.lat}}]
+      coordinates: [{{site.location.lng}}, {{site.location.lat}}]
     },
   },
   ]
