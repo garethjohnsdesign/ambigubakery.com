@@ -43,6 +43,20 @@
     </div>
     </div>
     {% endif %}
+
+    {% case "products" %}
+    <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      {% set products = matrixBlock.products.all() %}
+      {% for product in products %}
+      <div class="small-12 medium-4 cell">
+        <h3>{{ product.title }}</h3>
+        {{ product.simpleCopy }}
+      </div>
+      {% endfor %}
+    </div>
+   </div>
+
     
     {% case "heading" %}    
     {% if matrixBlock.position == 'full' %}
