@@ -26,6 +26,15 @@
 }
 
 @font-face {
+  font-family: 'Graebenbach Regular';
+  src: 
+  url('../fonts/graebenbach-regular.woff2') format('woff2'), 
+  url('../fonts/graebenbach-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Marr Sans';
   src: 
   url('../fonts/marr-sans-regular.woff2') format('woff2'), 
