@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Amigu Bakery",
+    "short_name": "Amigu Bakery",
     "icons": [
         {
             "src": "/assets/favicons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#325c4b",
+    "background_color": "#325c4b",
     "display": "standalone"
 }
