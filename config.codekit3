@@ -359,6 +359,14 @@
 		"oAP": "/templates/default/_includes/blocks/form.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/blocks/hero.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/hero.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/blocks/layout.twig": {
 		"cB": 0,
 		"ft": 8192,

@@ -358,7 +358,7 @@ z-index: 20;
 // 9. Home
 // -------
 
-.home .navigation, .about .navigation , .location .navigation, .food-and-drink .navigation {
+.home .navigation, .about .navigation , .location .navigation, .food-and-drink .navigation, .products .navigation {
   @include links ($primary-color, $primary-color);
 //   border-bottom: 1px solid $secondary-color;
   @include breakpoint(large) {
@@ -456,7 +456,7 @@ color: $secondary-color;
 }
 
 .map {
- height: 50vh;
+ height: 60vh;
  width: 100%;
 }
 

@@ -10,18 +10,13 @@
   </div>
 </div>
 
-<!-- Copy -->
-<div class="grid-container padding-vertical-3">
-  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
-    <div class="small-12 medium-10 large-9 cell text-center">
-      <div class="margin-bottom-2">{{entry.copy}}</div>
-
-      <h3 class="primary-color margin-bottom-1">{{site.address}}</h3>
-
-    </div>
+<!-- Layout -->
+<div class="grid-x grid-padding-y">
+  <div class="small-12 cell">
+    {% include "_includes/blocks/layout" %}    
   </div>
 </div>
-<!-- End Copy -->
+<!-- End Layout -->
 
 {% js %}
 mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2szeWllcnhiMGxyZTNncDZiZmRnNmYwdSJ9.WkvmU6fiN5LX8UbYcHuAiA";
