@@ -391,6 +391,14 @@
 		"oAP": "/templates/default/_includes/global/analytics.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/global/contact.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/contact.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/global/cta.twig": {
 		"cB": 0,
 		"ft": 8192,
