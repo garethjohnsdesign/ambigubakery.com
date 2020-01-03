@@ -150,11 +150,9 @@ html.is-animating .swup-transition-color {
   color: get-color(secondary);
 }
 
-/*
 .tertiary-color {
   color: get-color(tertiary);
 }
-*/
 
 .primary-background-color {
   background-color: get-color(primary);
@@ -175,13 +173,11 @@ html.is-animating .swup-transition-color {
   @include links($primary-color, $secondary-color)
 }
 
-/*
 .tertiary-background-colour {
   background-color: get-color(tertiary);
   color: $primary-color;
   @include links($primary-color, $secondary-color)
 }
-*/
 
 .black {
   color: $black;
