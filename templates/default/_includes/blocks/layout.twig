@@ -3,7 +3,7 @@
 
     {% case "copy" %}    
     {% if matrixBlock.position == 'full' %}
-    <div class="grid-x grid-padding-y padding-vertical-3 {% if matrixBlock.background %}{{ matrixBlock.background.value }}-background-color{% endif %}">
+    <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 {% if matrixBlock.background %}{{ matrixBlock.background.value }}-background-color{% endif %}">
       <div class="small-12 cell">
 
         <div class="grid-container">
@@ -24,7 +24,7 @@
       </div>
     </div>
     {% elseif matrixBlock.position in ['left', 'right', 'center'] %}
-    <div class="grid-x grid-padding-y padding-vertical-3 {% if matrixBlock.background %}{{ matrixBlock.background.value }}-background-color{% endif %}">
+    <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 {% if matrixBlock.background %}{{ matrixBlock.background.value }}-background-color{% endif %}">
       <div class="small-12 cell">
   
       <div class="grid-container">
