@@ -81,7 +81,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://ambigu-prod.frb.io',
+            'default' => 'https://www.ambigubakery.com',
         ],
 
         'devMode' => false,
