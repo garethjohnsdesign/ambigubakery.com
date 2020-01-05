@@ -5,8 +5,11 @@
 /vendor
 
 # CRAFT STORAGE
-/storage/*
-!/storage/.gitkeep
+/storage/backups/*
+/storage/runtime/*
+/storage/composer-backups/*
+/storage/config-backups/*
+/storage/logs/*
 
 # ASSETS
 /web/cpresources/*
