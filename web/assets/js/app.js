@@ -3,13 +3,7 @@
 
 import $ from "jquery";
 import Foundation from 'foundation-sites';
-import "lightGallery";
-import "lg-fullscreen";
-import "lg-video";
-import "lg-autoplay";
 import AOS from 'aos';
-import Swiper from 'swiper';
-import Cookies from 'js-cookie'
 
 
 // 2. Foundation
@@ -21,6 +15,23 @@ Foundation.Interchange.SPECIAL_QUERIES['xlarge-retina'] = 'only screen and (min-
 Foundation.Interchange.SPECIAL_QUERIES['xxlarge-retina'] = 'only screen and (min-width: 90em), (min-width: 75em) and (-webkit-min-device-pixel-ratio: 2), (min-width: 75em) and (min--moz-device-pixel-ratio: 2), (min-width: 75em) and (-o-min-device-pixel-ratio: 2/1), (min-width: 75em) and (min-device-pixel-ratio: 2), (min-width: 75em) and (min-resolution: 192dpi), (min-width: 75em) and (min-resolution: 2dppx)';
   
 $(document).foundation();
+
+
+// 4. Viewport Height Fix
+// ----------------------
+
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+const vh = window.innerHeight * 0.01;
+
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 
 // 1. Loader
@@ -50,59 +61,4 @@ $(function() {
 
 $(function() {
 window.addEventListener('load', AOS.refresh);
-});
-
-
-// 5. Carousel
-// -----------
-
-$(document).ready(function () {
-
-    //initialize swiper when document ready
-    var mySwiper = new Swiper ('.swiper-container', {
-
-      direction: 'horizontal',
-      slidesPerView: 'auto',
-      centeredSlides: true,
-      loop: true,
-      preventClicks: true,
-      slideToClickedSlide: false,
-
-  autoplay: {
-    delay: 5000,
-  },
-
-  keyboard: {
-    enabled: true,
-    onlyInViewport: false,
-  },
-
-    navigation: {
-      nextEl: '.swiper-button-next-test',
-      prevEl: '.swiper-button-prev-test',
-    }
-
-   
-    })
-  });
-
-// 6. Lightgallery
-// ---------------
-
-$('.video').lightGallery({
-    counter: false,
-    videoMaxWidth: '1080px',
-    youtubePlayerParams: {
-        modestbranding: 1,
-        showinfo: 0,
-        rel: 0,
-        autoplay: 0,
-    },
-    vimeoPlayerParams: {
-        autoplay: 0,
-        title : 0,
-        byline : 0,
-        portrait : 0,
-        color : 'FFFFFF'     
-    }
 });
