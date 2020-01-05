@@ -198,61 +198,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/js-cookie/src/js.cookie.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/js-cookie/src/js.cookie-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/lg-autoplay/dist/lg-autoplay.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-autoplay/dist/lg-autoplay-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/lg-fullscreen/dist/lg-fullscreen.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-fullscreen/dist/lg-fullscreen-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/lg-video/dist/lg-video.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-video/dist/lg-video-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lightGallery/dist/js/lightgallery-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/node_modules/mapbox-gl/dist/mapbox-gl.js": {
 		"bF": 0,
 		"ft": 64,
@@ -260,28 +205,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/mapbox-gl/dist/mapbox-gl-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/ssr-window/dist/ssr-window.esm-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/swiper/js/swiper.esm.bundle.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/js/swiper.esm.bundle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1109,6 +1032,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/web/assets/fonts/gt-walshiem-regular.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/louize-display.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/louize-display.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/louize-display.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/louize-display.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/lynstone-regular.woff": {
