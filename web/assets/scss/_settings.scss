@@ -97,7 +97,7 @@ $white: #FCFBF5;
 $body-background: #FCFBF5;
 $body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: $sans-regular;
+$body-font-family: $mono-regular;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -153,7 +153,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+// $header-font-family: $body-font-family;
+$header-font-family: $serif-regular;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -928,7 +929,8 @@ $grid-margin-gutters: (
 $grid-margin-gutters: (
   small: 32px,
   medium: 48px,
-  large: 64px
+  large: 64px,
+  xlarge: 86px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;

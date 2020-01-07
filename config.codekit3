@@ -1026,6 +1026,22 @@
 		"oAP": "/web/assets/fonts/graebenbach-regular.woff2",
 		"oF": 0
 		},
+	"/web/assets/fonts/gt-america-mono-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/gt-america-mono-regular.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/gt-america-mono-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/gt-america-mono-regular.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/gt-walshiem-regular.woff": {
 		"cB": 0,
 		"ft": 8192,
