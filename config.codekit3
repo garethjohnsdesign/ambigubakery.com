@@ -794,6 +794,14 @@
 		"oAP": "/templates/default/products/index.twig",
 		"oF": 0
 		},
+	"/templates/default/stockists/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/stockists/index.twig",
+		"oF": 0
+		},
 	"/vendor": {
 		"ft": 65536,
 		"oA": 1,
