@@ -32,7 +32,7 @@
           <div class="small-12 medium-8 cell text-{{ matrixBlock.position }}">
             {{ matrixBlock.copy | markdown }}
             {% if matrixBlock.page %}
-              {% for link in matrixBlock.page %}
+              {% for link in matrixBlock.page.all() %}
                 <a href="{{ link.url }}">More +</a>
               {% endfor %}
             {% endif %}
